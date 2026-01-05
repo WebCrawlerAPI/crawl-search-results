@@ -1,6 +1,6 @@
 {
   "name": "crawl-search-results",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "CLI tool to download search results as a single markdown file using WebCrawlerAPI",
   "type": "module",
   "bin": {

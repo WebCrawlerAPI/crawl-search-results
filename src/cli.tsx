@@ -76,7 +76,7 @@ export const CLI: React.FC<CLIProps> = ({ query }) => {
       {/* Header */}
       <Box borderStyle="double" borderColor="cyan" paddingX={2} paddingY={1}>
         <Text bold color="cyan">
-          Google Search Results Downloader (WebCrawlerAPI)
+          Google Search Results Crawler
         </Text>
       </Box>
 

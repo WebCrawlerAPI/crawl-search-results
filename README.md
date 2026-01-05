@@ -1,10 +1,14 @@
 # Crawl Search Results
 
+![Crawl Google Search Result CLI](screenshot.png)
+
 A CLI tool to download and save Google search results using WebCrawlerAPI. 
 
 Get full content from the top 10 search results and save them as a single markdown file.
 
 > [WebCrawlerAPI](https://webcrawlerapi.com) key is required
+
+[Example of the output markdown](crawl-result-example.md)
 
 ## Requirements
 
