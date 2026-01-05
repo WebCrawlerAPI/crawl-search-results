@@ -1,6 +1,10 @@
 # Crawl Search Results
 
-A CLI tool to download and save Google search results using WebCrawlerAPI. Get full content from the top 10 search results and save them as markdown files.
+A CLI tool to download and save Google search results using WebCrawlerAPI. 
+
+Get full content from the top 10 search results and save them as a single markdown file.
+
+> [WebCrawlerAPI](https://webcrawlerapi.com) key is required
 
 ## Requirements
 
@@ -41,7 +45,7 @@ On your first run, you'll be prompted to enter your WebCrawlerAPI key:
 $ crawl-search-results "webscraping guide"
 
 ╔════════════════════════════════════════════════════════════╗
-║  Google Search Results Downloader (WebCrawlerAPI)         ║
+║  Google Search Results Downloader (WebCrawlerAPI)          ║
 ╚════════════════════════════════════════════════════════════╝
 
 ⚠️  No API key found.
@@ -101,9 +105,7 @@ You need a WebCrawlerAPI key to use this tool. Get your free API key at:
 
 **https://app.webcrawlerapi.com/dashboard**
 
-Your API key is stored securely in your home directory:
-- macOS/Linux: `~/.config/crawl-search-results/config.json`
-- Windows: `%APPDATA%\crawl-search-results\config.json`
+> Your API key is stored in local directory in `config.json`
 
 ## Examples
 
@@ -129,13 +131,6 @@ bunx crawl-search-results "TypeScript tips"
 🔗 https://dash.webcrawlerapi.com/access
 ```
 **Solution:** Verify your API key at the dashboard and run the command again.
-
-### Rate Limit Exceeded
-```
-❌ Error: API rate limit exceeded.
-Please wait a moment and try again.
-```
-**Solution:** Wait a few moments before making another request.
 
 ### Network Connection Issues
 ```
