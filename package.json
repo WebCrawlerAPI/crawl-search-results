@@ -1,7 +1,7 @@
 {
   "name": "crawl-search-results",
-  "version": "0.0.3",
-  "description": "CLI tool to download Google search results using WebCrawlerAPI",
+  "version": "0.0.4",
+  "description": "CLI tool to download search results as a single markdown file using WebCrawlerAPI",
   "type": "module",
   "bin": {
     "crawl-search-results": "./dist/index.js"
@@ -19,9 +19,10 @@
     "google-search",
     "scraping",
     "cli",
-    "markdown"
+    "markdown",
+    "lm"
   ],
-  "author": "",
+  "author": "WebcrawlerAPI <sdk@webcrawlerapi.com>",
   "license": "MIT",
   "dependencies": {
     "conf": "^13.0.1",
@@ -40,5 +41,9 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebCrawlerAPI/crawl-search-results"
   }
 }
