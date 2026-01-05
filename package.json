@@ -1,6 +1,6 @@
 {
   "name": "crawl-search-results",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "CLI tool to download Google search results using WebCrawlerAPI",
   "type": "module",
   "bin": {
