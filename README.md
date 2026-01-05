@@ -13,7 +13,7 @@ Get full content from the top 10 search results and save them as a single markdo
 ## Requirements
 
 - Node.js 18 or higher
-- [WebCrawlerAPI](https://webcrawlerapi.com) account (free trial available)
+- WebCrawlerAPI account (free trial available)
 
 ## How It Works
 
